@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weird Web Page</title>
+    <style>
+        body {
+            background-color: lime;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+
+        h1 {
+            color: purple;
+            text-align: center;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        p {
+            font-size: 24px;
+            color: red;
+            text-align: center;
+            transform: rotate(180deg);
+        }
+
+        .weird-image {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            border: 5px solid yellow;
+            border-radius: 50%;
+            animation: spin 5s infinite linear;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Weird Web Page!</h1>
+    <p>This is a strange and unusual web page. Enjoy the weirdness!</p>
+    <img class="weird-image" src="https://i.imgur.com/6j4O8qo.gif" alt="Weird Image">
+</body>
+</html>
